@@ -1,0 +1,271 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#top-main{
+    position: relative;
+    width:100%;
+    height:720px;
+    background-image: url("https://i.ytimg.com/vi/Zt54wdS2Lfg/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#top-area {
+    position: absolute;
+    width:100%;
+    height:72px;
+}
+
+#top-area > nav {
+    width:96%;
+    height:72px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+#top-area > nav > ul {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #354256;
+    border-radius: 8px;
+    margin-top: 16px;
+    color: #ffffff;
+    padding:0px 16px;
+}
+#top-area > nav > ul > li{
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.li1{
+    font-size:18px;
+    font-weight: bold;
+}
+
+.li2{
+    font-size:16px;
+    font-weight: bold;
+}
+
+#top-area > nav > ul > li:hover{
+    background-color: #535563;
+}
+
+#top-area > nav > ul > button{
+    border-radius: 8px 8px;
+    border:none;
+    padding:16px 32px;
+    font-weight: bold;
+    font-size:16px;
+    color: #ffffff;
+    background-color: #060c11;
+}
+
+main {
+    width:100%;
+    height: 1400px;
+    background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blta8f9a8e092360c6c/blteb3521249ab5f92e/61e765b0819be248ba63157d/2600_Featured_Games.jpg?format=webply&quality=80&auto=webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner-main {
+    width:90%;
+    margin: 0 auto;
+}
+
+#recommand {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    height:100px;
+    
+    margin: 0 auto;
+}
+
+#recommand > h1 { 
+    font-size:30px;
+    font-weight: bold;
+    color:#ffffff;
+    
+}
+
+.small{
+    border-radius: 16px 16px;
+    border:none;
+    padding:8px 16px;
+    font-size:16px;
+    font-weight: bold;
+    color:#ffffff;
+    background-color: #354256;
+}
+
+.small:hover{
+    background-color: #535563;
+}
+
+#img-container {
+    width:100%;
+    height:560px;
+    display:flex;
+    gap:40px;
+    
+}
+
+#img-container2 {
+    width:100%;
+    height:500px;
+    display:flex;
+    gap:40px;
+}
+
+
+.game-img{
+    flex: 1;
+}
+
+
+.game-img > img{
+    width: 100%;
+    height: 360px;
+    border-radius:8px 8px;
+}
+
+.text1 {
+    margin-top:16px;
+    font-weight: bold;
+    color: #c2daee;
+    font-size: 22px;
+}
+
+.text1-1 {
+    font-weight: bold;
+    color: #8394a8;
+    font-size: 16px;
+}
+
+#all-game-button-area{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 120px;
+}
+
+#all-game-button-area > button {
+    border-radius:50px;
+    border:none;
+    padding:20px 48px;
+    font-size:24px;
+    font-weight: bold;
+    color:#ffffff;
+    background-color: #0f91ed;
+    cursor: pointer;
+}
+
+#all-game-button-area > button:hover{
+    background-color: #535563;
+}
+
+#next-main {
+    width : 100%;
+    height : 600px;
+    background-color: #2c3947;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#next-main > #banner-sub{
+    border-radius:8px;
+    background-color: #111729;
+    width:80%;
+    height:80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#next-main > #banner-sub > div{
+    width:80%;
+    height:80%;
+    
+}
+#next-main > #banner-sub > div > h2{
+    font-weight: bold;
+    font-size:60px;
+    color:#ffffff;
+}
+
+#next-main > #banner-sub > div > p{
+    font-weight: bold;
+    font-size:24px;
+    color:#b2b4bb;
+}
+
+#next-main > #banner-sub > div > button{
+    border-radius:50px;
+    border:none;
+    padding:20px 48px;
+    font-size:24px;
+    font-weight: bold;
+    color:#ffffff;
+    background-color: #0f91ed;
+    cursor: pointer;
+    margin-top:40px;
+}
+
+#next-main > #banner-sub > div > button:hover{
+    background-color: #535563;
+}
+
+footer{
+    width:100%;
+    height:500px;
+    background-color: #b2b4bb;
+}
